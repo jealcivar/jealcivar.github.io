@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  line-height: 1.4;
+  background-color: #a9a9a9;
+}
+
+.welcome,
+.introduction,
+.skills,
+.reach-out,
+.socials,
+.about-me-title,
+.about-me,
+.qualities,
+.my-projects {
+  text-align: center;
+}
+
+.welcome,
+.about-me-title,
+.qualities,
+.my-projects {
+  padding: 20px;
+}
+
+p {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.homepage-img,
+.about-me-img,
+.project-img {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-position: inside;
+  border: 1px solid black;
+}
+
+.qualities {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-position: inside;
+}
+
+.welcome,
+.about-me-title,
+.my-projects {
+  border-top: 2px solid black;
+}
+
+.navigation {
+  padding: 10px;
+  margin-left: 60px;
+}
+
+.project-class,
+.project-names {
+  margin-left: 70px;
+}
+
+.project-description {
+  margin-left: 5px;
+  margin-right: 70px;
+}
+
+.socials {
+  border-top: 2px solid black;
+  padding: 20px;
+}
+
+.links {
+  color: black;
+}
+
+.copyright {
+  font-size: 11px;
+}
